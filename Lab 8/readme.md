@@ -121,5 +121,5 @@ $ hadoop jar /home/shyam/Documents/hadoop-streaming-2.7.3.jar -input /Assignment
 ```
 26. Show the output.
 ```sh
-	$ hdfs dfs -cat /Assignment8/outputD/part-00000
+$ hdfs dfs -cat /Assignment8/outputD/part-00000
 ```

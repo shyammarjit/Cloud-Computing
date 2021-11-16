@@ -30,12 +30,12 @@ hdfs dfs -mkdir /adult_data
 ```
 go to the folder in which we have the python file<br/>
 ```sh
-hdfs dfs -copyFromLocal /home/shyam/Music/adultdata.txt /adultdata
+hdfs dfs -copyFromLocal /home/shyam/Music/adultdata.txt /adult_data
 ```
 or<br/>
 ```sh
-hdfs dfs -put adultdata.txt /adultdata
+hdfs dfs -put adultdata.txt /adult_data
 ```
 ```sh
-hdfs dfs -ls /adultdata
+hdfs dfs -ls /adult_data
 ```

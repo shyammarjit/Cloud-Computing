@@ -39,3 +39,14 @@ hdfs dfs -put adultdata.txt /adult_data
 ```sh
 hdfs dfs -ls /adult_data
 ```
+Now open another terminal<br/>
+```sh
+sudo su -
+```
+```sh
+cd /home/shyam/Music/
+```
+then run the python script<br/>
+```sh
+spark-submit kmeans-spark.py
+```
